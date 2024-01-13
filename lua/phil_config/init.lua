@@ -1,2 +1,3 @@
 require("phil_config.remap")
-print("hello from the phil config")
+require("phil_config.packer")
+vim.g.vimwiki_list = {{path = '~/neovim_notes/', syntax = 'markdown', ext = '.md'}}

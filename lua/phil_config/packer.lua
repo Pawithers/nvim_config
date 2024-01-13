@@ -8,8 +8,11 @@ use {
 	requires = { {'nvim-lua/plenary.nvim'}}
 }
 
+use { 'lervag/vimtex' }
+use { 'vimwiki/vimwiki'}
+
 use ({
-	'rose-pine/neovim'', 
+	'rose-pine/neovim', 
 	as = 'rose-pine',
 	config = function()
 		vim.cmd('colorscheme rose-pine')
